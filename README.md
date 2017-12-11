@@ -1,1 +1,1 @@
-# SSImagePickerViewController
+# SSImagePickerController
