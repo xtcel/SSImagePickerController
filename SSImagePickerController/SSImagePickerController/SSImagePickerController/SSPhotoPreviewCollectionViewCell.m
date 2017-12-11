@@ -17,13 +17,6 @@
     if (self) {
         [self.contentView addSubview:self.browserImageView];
         self.contentView.backgroundColor = [UIColor whiteColor];
-        
-//        [self.browserImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-//            make.leading.equalTo(@10);
-//            make.top.equalTo(@0);
-//            make.bottom.equalTo(@0);
-//            make.trailing.equalTo(@-10);
-//        }];
     }
     
     return self;

@@ -26,14 +26,10 @@ typedef void(^FailureBlock)(NSError *error);
 + (instancetype)sharedManager;
 
 - (void)registerLibraryDidChangeOberver;
+
 - (void)unregisterLibraryDidChangeOberver;
 
 - (void)fetchAlbumsWithCompletion:(void (^)(BOOL ret, NSArray *albums))completion;
-
-/**
- *判断是否有权限
- */
-//- (BOOL)haveAccessToPhotos;
 
 /**
  * 从相册中获取所有的图片

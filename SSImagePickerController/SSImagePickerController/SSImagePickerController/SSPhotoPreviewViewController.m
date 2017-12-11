@@ -165,45 +165,6 @@ static NSInteger KMAXPicCount = 9;
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - private Method
-
-//- (void)updateTitleText {
-//    NSInteger currentImageIndex = _currentIndex + 1;
-//    NSInteger imageTotal = [_photoArray count];
-//    NSString *title = [NSString stringWithFormat:@"%ld/%ld", currentImageIndex, imageTotal];
-//    [self setTitleLabel:title withColor:nil];
-//
-//    NSString *rightTitleString = nil;
-//    if (_selectedphotos.count > 0) {
-//        rightTitleString = [NSString stringWithFormat:@"发布(%ld/%ld)", _selectedphotos.count, (KMAXPicCount - _uploadedPicsCount)];
-//        [self setRightItemWithTitle:rightTitleString font:[UIFont boldSystemFontOfSize:15.0f] function:@selector(publishPhotos:)];
-//        self.rightButtonItem.userInteractionEnabled = YES;
-//    } else {
-//        rightTitleString = [NSString stringWithFormat:@"发布"];
-//        [self setRightItemWithTitle:rightTitleString font:[UIFont boldSystemFontOfSize:15.0f] function:@selector(publishPhotos:)];
-//        [self.rightButtonItem setTitleColor:HEXCOLOR(0xafe6ff) forState:UIControlStateNormal];
-//        self.rightButtonItem.userInteractionEnabled = NO;
-//    }
-//
-//    if (_singleImage) {
-//        [self.rightButtonItem setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-//        self.rightButtonItem.userInteractionEnabled = YES;
-//    }
-//}
-
-//图片压缩
-- (NSData *)compressImage:(UIImage *)image toMaxFileSize:(NSInteger)maxFileSize {
-    CGFloat compression = 0.9f;
-    CGFloat maxCompression = 0.1f;
-    NSData *imageData = UIImageJPEGRepresentation(image, compression);
-    while ([imageData length] > maxFileSize && compression > maxCompression) {
-        compression -= 0.1;
-        imageData = UIImageJPEGRepresentation(image, compression);
-    }
-    
-    return imageData;
-}
-
 #pragma mark - UICollectionViewDataSource
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
@@ -215,13 +176,12 @@ static NSInteger KMAXPicCount = 9;
     SSPhotoPreviewCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier
                                                                                        forIndexPath:indexPath];
     NSInteger item = indexPath.item;
-    //    _currentIndex = item;
     
     if (_singleImage) {
         //单张图片
         cell.browserImageView.image = _singleImage;
     } else {
-        //获取资源图片的x
+        //获取资源图片
         SSPhoto *photoModel = [_photoArray objectAtIndex:item];
         id asset = photoModel.photo;
         CGSize size = CGSizeMake(cell.bounds.size.width, cell.bounds.size.height);
@@ -229,7 +189,6 @@ static NSInteger KMAXPicCount = 9;
         __weak SSPhotoPreviewCollectionViewCell *weakCell = cell;
         [[SSImageManager manager] getPreviewImageForAssetObj:asset withSize:size completion:^(BOOL ret, UIImage *image) {
             weakCell.browserImageView.image = image;
-//            [weakCell.browserImageView  eliminateScale];
         }];
     }
     
@@ -253,19 +212,15 @@ static NSInteger KMAXPicCount = 9;
             
             [self.selectedPhotoArray addObject:self.currentPhotoModel];
             self.currentPhotoModel.selectedIndex = self.selectedPhotoArray.count;
-            
-//            [cell updateUI];
         } else {
             //已经有9张图片，不让继续添加，返回No，不让Cell切换状态
             //            [self showTipWithTitle:@"每条最多只能上传9张图片哦"];
             return;
         }
     } else {
-//        NSInteger removeIndex = cell.photoModel.selectedIndex;
         //如果已经勾选，那么取消勾选状态，并且从数组中删除当前勾选的图片资源元数据
         [self.selectedPhotoArray removeObject:self.currentPhotoModel];
         self.currentPhotoModel.selectedIndex = 0;
-//        [cell updateUI];
         
         // 更新其他cell数字索引
         [self.selectedPhotoArray enumerateObjectsUsingBlock:^(SSPhoto *photoModel, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -417,9 +372,6 @@ static NSInteger KMAXPicCount = 9;
                     forCellWithReuseIdentifier:cellIdentifier];
     _previewImageCollectionView.allowsMultipleSelection = YES;
     _previewImageCollectionView.showsHorizontalScrollIndicator = NO;
-    
-//    _previewImageCollectionView.backgroundColor = SSHEXCOLOR(0x151515);
-//    _previewImageCollectionView.backgroundColor = [UIColor redColor];
 
     return _previewImageCollectionView;
 }

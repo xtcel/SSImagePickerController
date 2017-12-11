@@ -33,11 +33,6 @@
 - (void)unregisterLibraryDidChangeObserver;
 
 /**
- *判断是否有权限
- */
-//- (BOOL)haveAccessToPhotos;
-
-/**
  * 获取所有相册
  */
 - (void)fetchAlbumsWithCompletion:(void (^)(BOOL ret, NSArray *albums))completion;
