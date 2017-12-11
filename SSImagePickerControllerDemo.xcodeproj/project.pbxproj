@@ -13,41 +13,8 @@
 		134D34691FD995470010FC1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134D34681FD995470010FC1C /* Assets.xcassets */; };
 		134D346C1FD995470010FC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134D346A1FD995470010FC1C /* LaunchScreen.storyboard */; };
 		134D346F1FD995470010FC1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D346E1FD995470010FC1C /* main.m */; };
-		134D34791FD995470010FC1C /* SSImagePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34781FD995470010FC1C /* SSImagePickerControllerTests.m */; };
-		134D34841FD995470010FC1C /* SSImagePickerControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34831FD995470010FC1C /* SSImagePickerControllerUITests.m */; };
-		134D34941FD99E0F0010FC1C /* SSImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34931FD99E0F0010FC1C /* SSImagePickerController.m */; };
-		134D34951FD99E0F0010FC1C /* SSImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34931FD99E0F0010FC1C /* SSImagePickerController.m */; };
-		134D34961FD99E0F0010FC1C /* SSImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34931FD99E0F0010FC1C /* SSImagePickerController.m */; };
-		134D34991FD9A3440010FC1C /* SSImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34981FD9A3440010FC1C /* SSImageManager.m */; };
-		134D349A1FD9A3440010FC1C /* SSImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34981FD9A3440010FC1C /* SSImageManager.m */; };
-		134D349B1FD9A3440010FC1C /* SSImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34981FD9A3440010FC1C /* SSImageManager.m */; };
-		134D349E1FD9A6C50010FC1C /* SSPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D349D1FD9A6C50010FC1C /* SSPhotoViewController.m */; };
-		134D349F1FD9A6C50010FC1C /* SSPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D349D1FD9A6C50010FC1C /* SSPhotoViewController.m */; };
-		134D34A01FD9A6C50010FC1C /* SSPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D349D1FD9A6C50010FC1C /* SSPhotoViewController.m */; };
-		134D34A31FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34A21FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.m */; };
-		134D34A41FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34A21FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.m */; };
-		134D34A51FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34A21FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.m */; };
-		134D34B71FDA2F9E0010FC1C /* SSPHSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34B61FDA2F9E0010FC1C /* SSPHSourceManager.m */; };
-		134D34B81FDA2F9E0010FC1C /* SSPHSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34B61FDA2F9E0010FC1C /* SSPHSourceManager.m */; };
-		134D34B91FDA2F9E0010FC1C /* SSPHSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34B61FDA2F9E0010FC1C /* SSPHSourceManager.m */; };
-		134D34BC1FDA2FB90010FC1C /* SSAssetSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34BB1FDA2FB90010FC1C /* SSAssetSourceManager.m */; };
-		134D34BD1FDA2FB90010FC1C /* SSAssetSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34BB1FDA2FB90010FC1C /* SSAssetSourceManager.m */; };
-		134D34BE1FDA2FB90010FC1C /* SSAssetSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34BB1FDA2FB90010FC1C /* SSAssetSourceManager.m */; };
-		134D34C11FDA465D0010FC1C /* SSImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 134D34C01FDA465D0010FC1C /* SSImagePickerController.bundle */; };
-		134D34C21FDA465D0010FC1C /* SSImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 134D34C01FDA465D0010FC1C /* SSImagePickerController.bundle */; };
-		134D34C31FDA465D0010FC1C /* SSImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 134D34C01FDA465D0010FC1C /* SSImagePickerController.bundle */; };
-		134D34C61FDA6E9F0010FC1C /* SSAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34C51FDA6E9F0010FC1C /* SSAlbumTableViewCell.m */; };
-		134D34C71FDA6E9F0010FC1C /* SSAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34C51FDA6E9F0010FC1C /* SSAlbumTableViewCell.m */; };
-		134D34C81FDA6E9F0010FC1C /* SSAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34C51FDA6E9F0010FC1C /* SSAlbumTableViewCell.m */; };
-		134D34D01FDAD7C40010FC1C /* SSPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34CF1FDAD7C40010FC1C /* SSPhotoPreviewViewController.m */; };
-		134D34D11FDAD7C40010FC1C /* SSPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34CF1FDAD7C40010FC1C /* SSPhotoPreviewViewController.m */; };
-		134D34D21FDAD7C40010FC1C /* SSPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34CF1FDAD7C40010FC1C /* SSPhotoPreviewViewController.m */; };
-		134D34D51FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34D41FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.m */; };
-		134D34D61FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34D41FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.m */; };
-		134D34D71FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34D41FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.m */; };
-		134D34DA1FDADC7A0010FC1C /* SSPreviewImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34D91FDADC7A0010FC1C /* SSPreviewImageScrollView.m */; };
-		134D34DB1FDADC7A0010FC1C /* SSPreviewImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34D91FDADC7A0010FC1C /* SSPreviewImageScrollView.m */; };
-		134D34DC1FDADC7A0010FC1C /* SSPreviewImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34D91FDADC7A0010FC1C /* SSPreviewImageScrollView.m */; };
+		134D34791FD995470010FC1C /* SSImagePickerControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34781FD995470010FC1C /* SSImagePickerControllerDemoTests.m */; };
+		134D34841FD995470010FC1C /* SSImagePickerControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 134D34831FD995470010FC1C /* SSImagePickerControllerDemoUITests.m */; };
 		13B8F0001FDBCF1800BE9C09 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8EFE71FDBCF1700BE9C09 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		13B8F0011FDBCF1800BE9C09 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8EFE71FDBCF1700BE9C09 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		13B8F0021FDBCF1800BE9C09 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8EFE71FDBCF1700BE9C09 /* NSLayoutConstraint+MASDebugAdditions.m */; };
@@ -78,12 +45,45 @@
 		13B8F01B1FDBCF1800BE9C09 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8EFFE1FDBCF1700BE9C09 /* MASViewAttribute.m */; };
 		13B8F01C1FDBCF1800BE9C09 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8EFFE1FDBCF1700BE9C09 /* MASViewAttribute.m */; };
 		13B8F01D1FDBCF1800BE9C09 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8EFFE1FDBCF1700BE9C09 /* MASViewAttribute.m */; };
-		13B8F0231FDE689C00BE9C09 /* SSPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8F0211FDE689B00BE9C09 /* SSPhoto.m */; };
-		13B8F0241FDE689C00BE9C09 /* SSPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8F0211FDE689B00BE9C09 /* SSPhoto.m */; };
-		13B8F0251FDE689C00BE9C09 /* SSPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8F0211FDE689B00BE9C09 /* SSPhoto.m */; };
-		13B8F0281FDE68A200BE9C09 /* SSAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8F0261FDE68A200BE9C09 /* SSAlbum.m */; };
-		13B8F0291FDE68A200BE9C09 /* SSAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8F0261FDE68A200BE9C09 /* SSAlbum.m */; };
-		13B8F02A1FDE68A200BE9C09 /* SSAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8F0261FDE68A200BE9C09 /* SSAlbum.m */; };
+		13D9F2131FDE840A00C7CBAD /* SSImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13D9F1F91FDE840A00C7CBAD /* SSImagePickerController.bundle */; };
+		13D9F2141FDE840A00C7CBAD /* SSImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13D9F1F91FDE840A00C7CBAD /* SSImagePickerController.bundle */; };
+		13D9F2151FDE840A00C7CBAD /* SSImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13D9F1F91FDE840A00C7CBAD /* SSImagePickerController.bundle */; };
+		13D9F2161FDE840A00C7CBAD /* SSPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F1FA1FDE840A00C7CBAD /* SSPhotoViewController.m */; };
+		13D9F2171FDE840A00C7CBAD /* SSPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F1FA1FDE840A00C7CBAD /* SSPhotoViewController.m */; };
+		13D9F2181FDE840A00C7CBAD /* SSPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F1FA1FDE840A00C7CBAD /* SSPhotoViewController.m */; };
+		13D9F2191FDE840A00C7CBAD /* SSPreviewImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F1FF1FDE840A00C7CBAD /* SSPreviewImageScrollView.m */; };
+		13D9F21A1FDE840A00C7CBAD /* SSPreviewImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F1FF1FDE840A00C7CBAD /* SSPreviewImageScrollView.m */; };
+		13D9F21B1FDE840A00C7CBAD /* SSPreviewImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F1FF1FDE840A00C7CBAD /* SSPreviewImageScrollView.m */; };
+		13D9F21C1FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2001FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.m */; };
+		13D9F21D1FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2001FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.m */; };
+		13D9F21E1FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2001FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.m */; };
+		13D9F21F1FDE840A00C7CBAD /* SSAssetSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2021FDE840A00C7CBAD /* SSAssetSourceManager.m */; };
+		13D9F2201FDE840A00C7CBAD /* SSAssetSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2021FDE840A00C7CBAD /* SSAssetSourceManager.m */; };
+		13D9F2211FDE840A00C7CBAD /* SSAssetSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2021FDE840A00C7CBAD /* SSAssetSourceManager.m */; };
+		13D9F2221FDE840A00C7CBAD /* SSAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2031FDE840A00C7CBAD /* SSAlbumTableViewCell.m */; };
+		13D9F2231FDE840A00C7CBAD /* SSAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2031FDE840A00C7CBAD /* SSAlbumTableViewCell.m */; };
+		13D9F2241FDE840A00C7CBAD /* SSAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2031FDE840A00C7CBAD /* SSAlbumTableViewCell.m */; };
+		13D9F2251FDE840A00C7CBAD /* SSPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2081FDE840A00C7CBAD /* SSPhotoPreviewViewController.m */; };
+		13D9F2261FDE840A00C7CBAD /* SSPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2081FDE840A00C7CBAD /* SSPhotoPreviewViewController.m */; };
+		13D9F2271FDE840A00C7CBAD /* SSPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2081FDE840A00C7CBAD /* SSPhotoPreviewViewController.m */; };
+		13D9F2281FDE840A00C7CBAD /* SSAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20B1FDE840A00C7CBAD /* SSAlbum.m */; };
+		13D9F2291FDE840A00C7CBAD /* SSAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20B1FDE840A00C7CBAD /* SSAlbum.m */; };
+		13D9F22A1FDE840A00C7CBAD /* SSAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20B1FDE840A00C7CBAD /* SSAlbum.m */; };
+		13D9F22B1FDE840A00C7CBAD /* SSImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20C1FDE840A00C7CBAD /* SSImagePickerController.m */; };
+		13D9F22C1FDE840A00C7CBAD /* SSImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20C1FDE840A00C7CBAD /* SSImagePickerController.m */; };
+		13D9F22D1FDE840A00C7CBAD /* SSImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20C1FDE840A00C7CBAD /* SSImagePickerController.m */; };
+		13D9F22E1FDE840A00C7CBAD /* SSPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20D1FDE840A00C7CBAD /* SSPhoto.m */; };
+		13D9F22F1FDE840A00C7CBAD /* SSPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20D1FDE840A00C7CBAD /* SSPhoto.m */; };
+		13D9F2301FDE840A00C7CBAD /* SSPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20D1FDE840A00C7CBAD /* SSPhoto.m */; };
+		13D9F2311FDE840A00C7CBAD /* SSImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20E1FDE840A00C7CBAD /* SSImageManager.m */; };
+		13D9F2321FDE840A00C7CBAD /* SSImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20E1FDE840A00C7CBAD /* SSImageManager.m */; };
+		13D9F2331FDE840A00C7CBAD /* SSImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20E1FDE840A00C7CBAD /* SSImageManager.m */; };
+		13D9F2341FDE840A00C7CBAD /* SSPHSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20F1FDE840A00C7CBAD /* SSPHSourceManager.m */; };
+		13D9F2351FDE840A00C7CBAD /* SSPHSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20F1FDE840A00C7CBAD /* SSPHSourceManager.m */; };
+		13D9F2361FDE840A00C7CBAD /* SSPHSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F20F1FDE840A00C7CBAD /* SSPHSourceManager.m */; };
+		13D9F2371FDE840A00C7CBAD /* SSPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2121FDE840A00C7CBAD /* SSPhotoCollectionViewCell.m */; };
+		13D9F2381FDE840A00C7CBAD /* SSPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2121FDE840A00C7CBAD /* SSPhotoCollectionViewCell.m */; };
+		13D9F2391FDE840A00C7CBAD /* SSPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F2121FDE840A00C7CBAD /* SSPhotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +104,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		134D345C1FD995470010FC1C /* SSImagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSImagePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		134D345C1FD995470010FC1C /* SSImagePickerControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSImagePickerControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		134D345F1FD995470010FC1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		134D34601FD995470010FC1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		134D34621FD995470010FC1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -114,36 +114,14 @@
 		134D346B1FD995470010FC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		134D346D1FD995470010FC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		134D346E1FD995470010FC1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		134D34741FD995470010FC1C /* SSImagePickerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSImagePickerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		134D34781FD995470010FC1C /* SSImagePickerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSImagePickerControllerTests.m; sourceTree = "<group>"; };
+		134D34741FD995470010FC1C /* SSImagePickerControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSImagePickerControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		134D34781FD995470010FC1C /* SSImagePickerControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSImagePickerControllerDemoTests.m; sourceTree = "<group>"; };
 		134D347A1FD995470010FC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		134D347F1FD995470010FC1C /* SSImagePickerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSImagePickerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		134D34831FD995470010FC1C /* SSImagePickerControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSImagePickerControllerUITests.m; sourceTree = "<group>"; };
+		134D347F1FD995470010FC1C /* SSImagePickerControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSImagePickerControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		134D34831FD995470010FC1C /* SSImagePickerControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSImagePickerControllerDemoUITests.m; sourceTree = "<group>"; };
 		134D34851FD995470010FC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		134D34921FD99E0F0010FC1C /* SSImagePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSImagePickerController.h; sourceTree = "<group>"; };
-		134D34931FD99E0F0010FC1C /* SSImagePickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSImagePickerController.m; sourceTree = "<group>"; };
-		134D34971FD9A3440010FC1C /* SSImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSImageManager.h; sourceTree = "<group>"; };
-		134D34981FD9A3440010FC1C /* SSImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSImageManager.m; sourceTree = "<group>"; };
-		134D349C1FD9A6C50010FC1C /* SSPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPhotoViewController.h; sourceTree = "<group>"; };
-		134D349D1FD9A6C50010FC1C /* SSPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPhotoViewController.m; sourceTree = "<group>"; };
-		134D34A11FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPhotoCollectionViewCell.h; sourceTree = "<group>"; };
-		134D34A21FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		134D34A71FD9AE310010FC1C /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		134D34A81FD9AE430010FC1C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		134D34B41FD9B3DF0010FC1C /* SSCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCommonDefine.h; sourceTree = "<group>"; };
-		134D34B51FDA2F9E0010FC1C /* SSPHSourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPHSourceManager.h; sourceTree = "<group>"; };
-		134D34B61FDA2F9E0010FC1C /* SSPHSourceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPHSourceManager.m; sourceTree = "<group>"; };
-		134D34BA1FDA2FB90010FC1C /* SSAssetSourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAssetSourceManager.h; sourceTree = "<group>"; };
-		134D34BB1FDA2FB90010FC1C /* SSAssetSourceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAssetSourceManager.m; sourceTree = "<group>"; };
-		134D34C01FDA465D0010FC1C /* SSImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SSImagePickerController.bundle; sourceTree = "<group>"; };
-		134D34C41FDA6E9F0010FC1C /* SSAlbumTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAlbumTableViewCell.h; sourceTree = "<group>"; };
-		134D34C51FDA6E9F0010FC1C /* SSAlbumTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAlbumTableViewCell.m; sourceTree = "<group>"; };
-		134D34CE1FDAD7C40010FC1C /* SSPhotoPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPhotoPreviewViewController.h; sourceTree = "<group>"; };
-		134D34CF1FDAD7C40010FC1C /* SSPhotoPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPhotoPreviewViewController.m; sourceTree = "<group>"; };
-		134D34D31FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPhotoPreviewCollectionViewCell.h; sourceTree = "<group>"; };
-		134D34D41FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPhotoPreviewCollectionViewCell.m; sourceTree = "<group>"; };
-		134D34D81FDADC7A0010FC1C /* SSPreviewImageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSPreviewImageScrollView.h; sourceTree = "<group>"; };
-		134D34D91FDADC7A0010FC1C /* SSPreviewImageScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPreviewImageScrollView.m; sourceTree = "<group>"; };
 		13B8EFE61FDBCF1700BE9C09 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		13B8EFE71FDBCF1700BE9C09 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		13B8EFE81FDBCF1700BE9C09 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -169,10 +147,32 @@
 		13B8EFFC1FDBCF1700BE9C09 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		13B8EFFD1FDBCF1700BE9C09 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		13B8EFFE1FDBCF1700BE9C09 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		13B8F0211FDE689B00BE9C09 /* SSPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPhoto.m; sourceTree = "<group>"; };
-		13B8F0221FDE689C00BE9C09 /* SSPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPhoto.h; sourceTree = "<group>"; };
-		13B8F0261FDE68A200BE9C09 /* SSAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlbum.m; sourceTree = "<group>"; };
-		13B8F0271FDE68A200BE9C09 /* SSAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlbum.h; sourceTree = "<group>"; };
+		13D9F1F91FDE840A00C7CBAD /* SSImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SSImagePickerController.bundle; sourceTree = "<group>"; };
+		13D9F1FA1FDE840A00C7CBAD /* SSPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPhotoViewController.m; sourceTree = "<group>"; };
+		13D9F1FB1FDE840A00C7CBAD /* SSCommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCommonDefine.h; sourceTree = "<group>"; };
+		13D9F1FC1FDE840A00C7CBAD /* SSPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPhoto.h; sourceTree = "<group>"; };
+		13D9F1FD1FDE840A00C7CBAD /* SSImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSImagePickerController.h; sourceTree = "<group>"; };
+		13D9F1FE1FDE840A00C7CBAD /* SSAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlbum.h; sourceTree = "<group>"; };
+		13D9F1FF1FDE840A00C7CBAD /* SSPreviewImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPreviewImageScrollView.m; sourceTree = "<group>"; };
+		13D9F2001FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPhotoPreviewCollectionViewCell.m; sourceTree = "<group>"; };
+		13D9F2011FDE840A00C7CBAD /* SSPhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPhotoPreviewViewController.h; sourceTree = "<group>"; };
+		13D9F2021FDE840A00C7CBAD /* SSAssetSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAssetSourceManager.m; sourceTree = "<group>"; };
+		13D9F2031FDE840A00C7CBAD /* SSAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlbumTableViewCell.m; sourceTree = "<group>"; };
+		13D9F2041FDE840A00C7CBAD /* SSPHSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPHSourceManager.h; sourceTree = "<group>"; };
+		13D9F2051FDE840A00C7CBAD /* SSImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSImageManager.h; sourceTree = "<group>"; };
+		13D9F2061FDE840A00C7CBAD /* SSPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		13D9F2071FDE840A00C7CBAD /* SSPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPhotoViewController.h; sourceTree = "<group>"; };
+		13D9F2081FDE840A00C7CBAD /* SSPhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPhotoPreviewViewController.m; sourceTree = "<group>"; };
+		13D9F2091FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPhotoPreviewCollectionViewCell.h; sourceTree = "<group>"; };
+		13D9F20A1FDE840A00C7CBAD /* SSPreviewImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPreviewImageScrollView.h; sourceTree = "<group>"; };
+		13D9F20B1FDE840A00C7CBAD /* SSAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlbum.m; sourceTree = "<group>"; };
+		13D9F20C1FDE840A00C7CBAD /* SSImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSImagePickerController.m; sourceTree = "<group>"; };
+		13D9F20D1FDE840A00C7CBAD /* SSPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPhoto.m; sourceTree = "<group>"; };
+		13D9F20E1FDE840A00C7CBAD /* SSImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSImageManager.m; sourceTree = "<group>"; };
+		13D9F20F1FDE840A00C7CBAD /* SSPHSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPHSourceManager.m; sourceTree = "<group>"; };
+		13D9F2101FDE840A00C7CBAD /* SSAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlbumTableViewCell.h; sourceTree = "<group>"; };
+		13D9F2111FDE840A00C7CBAD /* SSAssetSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAssetSourceManager.h; sourceTree = "<group>"; };
+		13D9F2121FDE840A00C7CBAD /* SSPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,9 +203,9 @@
 		134D34531FD995470010FC1C = {
 			isa = PBXGroup;
 			children = (
-				134D345E1FD995470010FC1C /* SSImagePickerController */,
-				134D34771FD995470010FC1C /* SSImagePickerControllerTests */,
-				134D34821FD995470010FC1C /* SSImagePickerControllerUITests */,
+				134D345E1FD995470010FC1C /* SSImagePickerControllerDemo */,
+				134D34771FD995470010FC1C /* SSImagePickerControllerDemoTests */,
+				134D34821FD995470010FC1C /* SSImagePickerControllerDemoUITests */,
 				134D345D1FD995470010FC1C /* Products */,
 				134D34A61FD9AE310010FC1C /* Frameworks */,
 			);
@@ -214,80 +214,47 @@
 		134D345D1FD995470010FC1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134D345C1FD995470010FC1C /* SSImagePickerController.app */,
-				134D34741FD995470010FC1C /* SSImagePickerControllerTests.xctest */,
-				134D347F1FD995470010FC1C /* SSImagePickerControllerUITests.xctest */,
+				134D345C1FD995470010FC1C /* SSImagePickerControllerDemo.app */,
+				134D34741FD995470010FC1C /* SSImagePickerControllerDemoTests.xctest */,
+				134D347F1FD995470010FC1C /* SSImagePickerControllerDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		134D345E1FD995470010FC1C /* SSImagePickerController */ = {
+		134D345E1FD995470010FC1C /* SSImagePickerControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				13D9F1F81FDE840A00C7CBAD /* SSImagePickerController */,
 				13B8EFE51FDBCF1700BE9C09 /* Masonry */,
 				134D345F1FD995470010FC1C /* AppDelegate.h */,
 				134D34601FD995470010FC1C /* AppDelegate.m */,
 				134D34621FD995470010FC1C /* ViewController.h */,
 				134D34631FD995470010FC1C /* ViewController.m */,
-				134D34911FD996E20010FC1C /* SSImagePickerController */,
 				134D34651FD995470010FC1C /* Main.storyboard */,
-				134D34BF1FDA46200010FC1C /* Resources */,
 				134D34681FD995470010FC1C /* Assets.xcassets */,
 				134D346A1FD995470010FC1C /* LaunchScreen.storyboard */,
 				134D346D1FD995470010FC1C /* Info.plist */,
 				134D346E1FD995470010FC1C /* main.m */,
 			);
-			path = SSImagePickerController;
+			path = SSImagePickerControllerDemo;
 			sourceTree = "<group>";
 		};
-		134D34771FD995470010FC1C /* SSImagePickerControllerTests */ = {
+		134D34771FD995470010FC1C /* SSImagePickerControllerDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				134D34781FD995470010FC1C /* SSImagePickerControllerTests.m */,
+				134D34781FD995470010FC1C /* SSImagePickerControllerDemoTests.m */,
 				134D347A1FD995470010FC1C /* Info.plist */,
 			);
-			path = SSImagePickerControllerTests;
+			path = SSImagePickerControllerDemoTests;
 			sourceTree = "<group>";
 		};
-		134D34821FD995470010FC1C /* SSImagePickerControllerUITests */ = {
+		134D34821FD995470010FC1C /* SSImagePickerControllerDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				134D34831FD995470010FC1C /* SSImagePickerControllerUITests.m */,
+				134D34831FD995470010FC1C /* SSImagePickerControllerDemoUITests.m */,
 				134D34851FD995470010FC1C /* Info.plist */,
 			);
-			path = SSImagePickerControllerUITests;
-			sourceTree = "<group>";
-		};
-		134D34911FD996E20010FC1C /* SSImagePickerController */ = {
-			isa = PBXGroup;
-			children = (
-				134D34921FD99E0F0010FC1C /* SSImagePickerController.h */,
-				134D34931FD99E0F0010FC1C /* SSImagePickerController.m */,
-				134D34971FD9A3440010FC1C /* SSImageManager.h */,
-				134D34981FD9A3440010FC1C /* SSImageManager.m */,
-				134D349C1FD9A6C50010FC1C /* SSPhotoViewController.h */,
-				134D349D1FD9A6C50010FC1C /* SSPhotoViewController.m */,
-				134D34A11FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.h */,
-				134D34A21FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.m */,
-				134D34B41FD9B3DF0010FC1C /* SSCommonDefine.h */,
-				134D34B51FDA2F9E0010FC1C /* SSPHSourceManager.h */,
-				134D34B61FDA2F9E0010FC1C /* SSPHSourceManager.m */,
-				134D34BA1FDA2FB90010FC1C /* SSAssetSourceManager.h */,
-				134D34BB1FDA2FB90010FC1C /* SSAssetSourceManager.m */,
-				134D34C41FDA6E9F0010FC1C /* SSAlbumTableViewCell.h */,
-				134D34C51FDA6E9F0010FC1C /* SSAlbumTableViewCell.m */,
-				134D34CE1FDAD7C40010FC1C /* SSPhotoPreviewViewController.h */,
-				134D34CF1FDAD7C40010FC1C /* SSPhotoPreviewViewController.m */,
-				134D34D31FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.h */,
-				134D34D41FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.m */,
-				134D34D81FDADC7A0010FC1C /* SSPreviewImageScrollView.h */,
-				134D34D91FDADC7A0010FC1C /* SSPreviewImageScrollView.m */,
-				13B8F0221FDE689C00BE9C09 /* SSPhoto.h */,
-				13B8F0211FDE689B00BE9C09 /* SSPhoto.m */,
-				13B8F0271FDE68A200BE9C09 /* SSAlbum.h */,
-				13B8F0261FDE68A200BE9C09 /* SSAlbum.m */,
-			);
-			path = SSImagePickerController;
+			path = SSImagePickerControllerDemoUITests;
 			sourceTree = "<group>";
 		};
 		134D34A61FD9AE310010FC1C /* Frameworks */ = {
@@ -297,14 +264,6 @@
 				134D34A71FD9AE310010FC1C /* Photos.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		134D34BF1FDA46200010FC1C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				134D34C01FDA465D0010FC1C /* SSImagePickerController.bundle */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		13B8EFE51FDBCF1700BE9C09 /* Masonry */ = {
@@ -339,12 +298,45 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		13D9F1F81FDE840A00C7CBAD /* SSImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				13D9F1F91FDE840A00C7CBAD /* SSImagePickerController.bundle */,
+				13D9F1FA1FDE840A00C7CBAD /* SSPhotoViewController.m */,
+				13D9F1FB1FDE840A00C7CBAD /* SSCommonDefine.h */,
+				13D9F1FC1FDE840A00C7CBAD /* SSPhoto.h */,
+				13D9F1FD1FDE840A00C7CBAD /* SSImagePickerController.h */,
+				13D9F1FE1FDE840A00C7CBAD /* SSAlbum.h */,
+				13D9F1FF1FDE840A00C7CBAD /* SSPreviewImageScrollView.m */,
+				13D9F2001FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.m */,
+				13D9F2011FDE840A00C7CBAD /* SSPhotoPreviewViewController.h */,
+				13D9F2021FDE840A00C7CBAD /* SSAssetSourceManager.m */,
+				13D9F2031FDE840A00C7CBAD /* SSAlbumTableViewCell.m */,
+				13D9F2041FDE840A00C7CBAD /* SSPHSourceManager.h */,
+				13D9F2051FDE840A00C7CBAD /* SSImageManager.h */,
+				13D9F2061FDE840A00C7CBAD /* SSPhotoCollectionViewCell.h */,
+				13D9F2071FDE840A00C7CBAD /* SSPhotoViewController.h */,
+				13D9F2081FDE840A00C7CBAD /* SSPhotoPreviewViewController.m */,
+				13D9F2091FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.h */,
+				13D9F20A1FDE840A00C7CBAD /* SSPreviewImageScrollView.h */,
+				13D9F20B1FDE840A00C7CBAD /* SSAlbum.m */,
+				13D9F20C1FDE840A00C7CBAD /* SSImagePickerController.m */,
+				13D9F20D1FDE840A00C7CBAD /* SSPhoto.m */,
+				13D9F20E1FDE840A00C7CBAD /* SSImageManager.m */,
+				13D9F20F1FDE840A00C7CBAD /* SSPHSourceManager.m */,
+				13D9F2101FDE840A00C7CBAD /* SSAlbumTableViewCell.h */,
+				13D9F2111FDE840A00C7CBAD /* SSAssetSourceManager.h */,
+				13D9F2121FDE840A00C7CBAD /* SSPhotoCollectionViewCell.m */,
+			);
+			path = SSImagePickerController;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		134D345B1FD995470010FC1C /* SSImagePickerController */ = {
+		134D345B1FD995470010FC1C /* SSImagePickerControllerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 134D34881FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerController" */;
+			buildConfigurationList = 134D34881FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerControllerDemo" */;
 			buildPhases = (
 				134D34581FD995470010FC1C /* Sources */,
 				134D34591FD995470010FC1C /* Frameworks */,
@@ -354,14 +346,14 @@
 			);
 			dependencies = (
 			);
-			name = SSImagePickerController;
+			name = SSImagePickerControllerDemo;
 			productName = SSImagePickerViewController;
-			productReference = 134D345C1FD995470010FC1C /* SSImagePickerController.app */;
+			productReference = 134D345C1FD995470010FC1C /* SSImagePickerControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		134D34731FD995470010FC1C /* SSImagePickerControllerTests */ = {
+		134D34731FD995470010FC1C /* SSImagePickerControllerDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 134D348B1FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerControllerTests" */;
+			buildConfigurationList = 134D348B1FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerControllerDemoTests" */;
 			buildPhases = (
 				134D34701FD995470010FC1C /* Sources */,
 				134D34711FD995470010FC1C /* Frameworks */,
@@ -372,14 +364,14 @@
 			dependencies = (
 				134D34761FD995470010FC1C /* PBXTargetDependency */,
 			);
-			name = SSImagePickerControllerTests;
+			name = SSImagePickerControllerDemoTests;
 			productName = SSImagePickerViewControllerTests;
-			productReference = 134D34741FD995470010FC1C /* SSImagePickerControllerTests.xctest */;
+			productReference = 134D34741FD995470010FC1C /* SSImagePickerControllerDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		134D347E1FD995470010FC1C /* SSImagePickerControllerUITests */ = {
+		134D347E1FD995470010FC1C /* SSImagePickerControllerDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 134D348E1FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerControllerUITests" */;
+			buildConfigurationList = 134D348E1FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerControllerDemoUITests" */;
 			buildPhases = (
 				134D347B1FD995470010FC1C /* Sources */,
 				134D347C1FD995470010FC1C /* Frameworks */,
@@ -390,9 +382,9 @@
 			dependencies = (
 				134D34811FD995470010FC1C /* PBXTargetDependency */,
 			);
-			name = SSImagePickerControllerUITests;
+			name = SSImagePickerControllerDemoUITests;
 			productName = SSImagePickerViewControllerUITests;
-			productReference = 134D347F1FD995470010FC1C /* SSImagePickerControllerUITests.xctest */;
+			productReference = 134D347F1FD995470010FC1C /* SSImagePickerControllerDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -420,7 +412,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 134D34571FD995470010FC1C /* Build configuration list for PBXProject "SSImagePickerController" */;
+			buildConfigurationList = 134D34571FD995470010FC1C /* Build configuration list for PBXProject "SSImagePickerControllerDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -433,9 +425,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				134D345B1FD995470010FC1C /* SSImagePickerController */,
-				134D34731FD995470010FC1C /* SSImagePickerControllerTests */,
-				134D347E1FD995470010FC1C /* SSImagePickerControllerUITests */,
+				134D345B1FD995470010FC1C /* SSImagePickerControllerDemo */,
+				134D34731FD995470010FC1C /* SSImagePickerControllerDemoTests */,
+				134D347E1FD995470010FC1C /* SSImagePickerControllerDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -445,8 +437,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134D34C11FDA465D0010FC1C /* SSImagePickerController.bundle in Resources */,
 				134D346C1FD995470010FC1C /* LaunchScreen.storyboard in Resources */,
+				13D9F2131FDE840A00C7CBAD /* SSImagePickerController.bundle in Resources */,
 				134D34691FD995470010FC1C /* Assets.xcassets in Resources */,
 				134D34671FD995470010FC1C /* Main.storyboard in Resources */,
 			);
@@ -456,7 +448,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134D34C21FDA465D0010FC1C /* SSImagePickerController.bundle in Resources */,
+				13D9F2141FDE840A00C7CBAD /* SSImagePickerController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +456,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134D34C31FDA465D0010FC1C /* SSImagePickerController.bundle in Resources */,
+				13D9F2151FDE840A00C7CBAD /* SSImagePickerController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,30 +467,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134D34A31FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.m in Sources */,
+				13D9F2251FDE840A00C7CBAD /* SSPhotoPreviewViewController.m in Sources */,
 				134D34641FD995470010FC1C /* ViewController.m in Sources */,
-				134D34D51FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.m in Sources */,
-				134D34DA1FDADC7A0010FC1C /* SSPreviewImageScrollView.m in Sources */,
 				13B8F0061FDBCF1800BE9C09 /* MASCompositeConstraint.m in Sources */,
-				134D349E1FD9A6C50010FC1C /* SSPhotoViewController.m in Sources */,
+				13D9F2281FDE840A00C7CBAD /* SSAlbum.m in Sources */,
+				13D9F2311FDE840A00C7CBAD /* SSImageManager.m in Sources */,
 				13B8F0151FDBCF1800BE9C09 /* MASConstraint.m in Sources */,
+				13D9F2221FDE840A00C7CBAD /* SSAlbumTableViewCell.m in Sources */,
+				13D9F22E1FDE840A00C7CBAD /* SSPhoto.m in Sources */,
+				13D9F2191FDE840A00C7CBAD /* SSPreviewImageScrollView.m in Sources */,
+				13D9F21F1FDE840A00C7CBAD /* SSAssetSourceManager.m in Sources */,
 				13B8F0121FDBCF1800BE9C09 /* View+MASAdditions.m in Sources */,
-				13B8F0281FDE68A200BE9C09 /* SSAlbum.m in Sources */,
-				134D34C61FDA6E9F0010FC1C /* SSAlbumTableViewCell.m in Sources */,
-				134D34991FD9A3440010FC1C /* SSImageManager.m in Sources */,
 				13B8F01B1FDBCF1800BE9C09 /* MASViewAttribute.m in Sources */,
 				13B8F0001FDBCF1800BE9C09 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				13B8F0231FDE689C00BE9C09 /* SSPhoto.m in Sources */,
-				134D34D01FDAD7C40010FC1C /* SSPhotoPreviewViewController.m in Sources */,
 				134D346F1FD995470010FC1C /* main.m in Sources */,
 				13B8F00C1FDBCF1800BE9C09 /* MASLayoutConstraint.m in Sources */,
 				13B8F0181FDBCF1800BE9C09 /* MASViewConstraint.m in Sources */,
-				134D34B71FDA2F9E0010FC1C /* SSPHSourceManager.m in Sources */,
+				13D9F2341FDE840A00C7CBAD /* SSPHSourceManager.m in Sources */,
 				13B8F00F1FDBCF1800BE9C09 /* NSArray+MASAdditions.m in Sources */,
 				13B8F0091FDBCF1800BE9C09 /* MASConstraintMaker.m in Sources */,
-				134D34BC1FDA2FB90010FC1C /* SSAssetSourceManager.m in Sources */,
-				134D34941FD99E0F0010FC1C /* SSImagePickerController.m in Sources */,
+				13D9F2371FDE840A00C7CBAD /* SSPhotoCollectionViewCell.m in Sources */,
+				13D9F22B1FDE840A00C7CBAD /* SSImagePickerController.m in Sources */,
+				13D9F2161FDE840A00C7CBAD /* SSPhotoViewController.m in Sources */,
 				13B8F0031FDBCF1800BE9C09 /* ViewController+MASAdditions.m in Sources */,
+				13D9F21C1FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.m in Sources */,
 				134D34611FD995470010FC1C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,29 +499,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134D34B81FDA2F9E0010FC1C /* SSPHSourceManager.m in Sources */,
 				13B8F0191FDBCF1800BE9C09 /* MASViewConstraint.m in Sources */,
+				13D9F22C1FDE840A00C7CBAD /* SSImagePickerController.m in Sources */,
+				13D9F2351FDE840A00C7CBAD /* SSPHSourceManager.m in Sources */,
+				13D9F2171FDE840A00C7CBAD /* SSPhotoViewController.m in Sources */,
+				13D9F21D1FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.m in Sources */,
+				13D9F2201FDE840A00C7CBAD /* SSAssetSourceManager.m in Sources */,
+				13D9F21A1FDE840A00C7CBAD /* SSPreviewImageScrollView.m in Sources */,
 				13B8F0101FDBCF1800BE9C09 /* NSArray+MASAdditions.m in Sources */,
-				134D34C71FDA6E9F0010FC1C /* SSAlbumTableViewCell.m in Sources */,
-				134D34DB1FDADC7A0010FC1C /* SSPreviewImageScrollView.m in Sources */,
-				13B8F0291FDE68A200BE9C09 /* SSAlbum.m in Sources */,
 				13B8F01C1FDBCF1800BE9C09 /* MASViewAttribute.m in Sources */,
-				13B8F0241FDE689C00BE9C09 /* SSPhoto.m in Sources */,
 				13B8F0161FDBCF1800BE9C09 /* MASConstraint.m in Sources */,
-				134D34951FD99E0F0010FC1C /* SSImagePickerController.m in Sources */,
-				134D349F1FD9A6C50010FC1C /* SSPhotoViewController.m in Sources */,
 				13B8F0131FDBCF1800BE9C09 /* View+MASAdditions.m in Sources */,
 				13B8F00A1FDBCF1800BE9C09 /* MASConstraintMaker.m in Sources */,
-				134D34791FD995470010FC1C /* SSImagePickerControllerTests.m in Sources */,
-				134D34BD1FDA2FB90010FC1C /* SSAssetSourceManager.m in Sources */,
+				13D9F2381FDE840A00C7CBAD /* SSPhotoCollectionViewCell.m in Sources */,
+				13D9F2261FDE840A00C7CBAD /* SSPhotoPreviewViewController.m in Sources */,
+				13D9F22F1FDE840A00C7CBAD /* SSPhoto.m in Sources */,
+				134D34791FD995470010FC1C /* SSImagePickerControllerDemoTests.m in Sources */,
+				13D9F2231FDE840A00C7CBAD /* SSAlbumTableViewCell.m in Sources */,
 				13B8F0011FDBCF1800BE9C09 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				134D349A1FD9A3440010FC1C /* SSImageManager.m in Sources */,
 				13B8F0041FDBCF1800BE9C09 /* ViewController+MASAdditions.m in Sources */,
+				13D9F2321FDE840A00C7CBAD /* SSImageManager.m in Sources */,
+				13D9F2291FDE840A00C7CBAD /* SSAlbum.m in Sources */,
 				13B8F0071FDBCF1800BE9C09 /* MASCompositeConstraint.m in Sources */,
-				134D34A41FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.m in Sources */,
-				134D34D61FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.m in Sources */,
 				13B8F00D1FDBCF1800BE9C09 /* MASLayoutConstraint.m in Sources */,
-				134D34D11FDAD7C40010FC1C /* SSPhotoPreviewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,29 +529,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134D34B91FDA2F9E0010FC1C /* SSPHSourceManager.m in Sources */,
 				13B8F01A1FDBCF1800BE9C09 /* MASViewConstraint.m in Sources */,
+				13D9F22D1FDE840A00C7CBAD /* SSImagePickerController.m in Sources */,
+				13D9F2361FDE840A00C7CBAD /* SSPHSourceManager.m in Sources */,
+				13D9F2181FDE840A00C7CBAD /* SSPhotoViewController.m in Sources */,
+				13D9F21E1FDE840A00C7CBAD /* SSPhotoPreviewCollectionViewCell.m in Sources */,
+				13D9F2211FDE840A00C7CBAD /* SSAssetSourceManager.m in Sources */,
+				13D9F21B1FDE840A00C7CBAD /* SSPreviewImageScrollView.m in Sources */,
 				13B8F0111FDBCF1800BE9C09 /* NSArray+MASAdditions.m in Sources */,
-				134D34C81FDA6E9F0010FC1C /* SSAlbumTableViewCell.m in Sources */,
-				134D34DC1FDADC7A0010FC1C /* SSPreviewImageScrollView.m in Sources */,
-				13B8F02A1FDE68A200BE9C09 /* SSAlbum.m in Sources */,
 				13B8F01D1FDBCF1800BE9C09 /* MASViewAttribute.m in Sources */,
-				13B8F0251FDE689C00BE9C09 /* SSPhoto.m in Sources */,
 				13B8F0171FDBCF1800BE9C09 /* MASConstraint.m in Sources */,
-				134D34961FD99E0F0010FC1C /* SSImagePickerController.m in Sources */,
-				134D34A01FD9A6C50010FC1C /* SSPhotoViewController.m in Sources */,
 				13B8F0141FDBCF1800BE9C09 /* View+MASAdditions.m in Sources */,
 				13B8F00B1FDBCF1800BE9C09 /* MASConstraintMaker.m in Sources */,
-				134D34841FD995470010FC1C /* SSImagePickerControllerUITests.m in Sources */,
-				134D34BE1FDA2FB90010FC1C /* SSAssetSourceManager.m in Sources */,
+				13D9F2391FDE840A00C7CBAD /* SSPhotoCollectionViewCell.m in Sources */,
+				13D9F2271FDE840A00C7CBAD /* SSPhotoPreviewViewController.m in Sources */,
+				13D9F2301FDE840A00C7CBAD /* SSPhoto.m in Sources */,
+				134D34841FD995470010FC1C /* SSImagePickerControllerDemoUITests.m in Sources */,
+				13D9F2241FDE840A00C7CBAD /* SSAlbumTableViewCell.m in Sources */,
 				13B8F0021FDBCF1800BE9C09 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				134D349B1FD9A3440010FC1C /* SSImageManager.m in Sources */,
 				13B8F0051FDBCF1800BE9C09 /* ViewController+MASAdditions.m in Sources */,
+				13D9F2331FDE840A00C7CBAD /* SSImageManager.m in Sources */,
+				13D9F22A1FDE840A00C7CBAD /* SSAlbum.m in Sources */,
 				13B8F0081FDBCF1800BE9C09 /* MASCompositeConstraint.m in Sources */,
-				134D34A51FD9AB9A0010FC1C /* SSPhotoCollectionViewCell.m in Sources */,
-				134D34D71FDADAA10010FC1C /* SSPhotoPreviewCollectionViewCell.m in Sources */,
 				13B8F00E1FDBCF1800BE9C09 /* MASLayoutConstraint.m in Sources */,
-				134D34D21FDAD7C40010FC1C /* SSPhotoPreviewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,12 +560,12 @@
 /* Begin PBXTargetDependency section */
 		134D34761FD995470010FC1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 134D345B1FD995470010FC1C /* SSImagePickerController */;
+			target = 134D345B1FD995470010FC1C /* SSImagePickerControllerDemo */;
 			targetProxy = 134D34751FD995470010FC1C /* PBXContainerItemProxy */;
 		};
 		134D34811FD995470010FC1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 134D345B1FD995470010FC1C /* SSImagePickerController */;
+			target = 134D345B1FD995470010FC1C /* SSImagePickerControllerDemo */;
 			targetProxy = 134D34801FD995470010FC1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -708,10 +700,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3QF9K9Q47Z;
-				INFOPLIST_FILE = SSImagePickerController/Info.plist;
+				INFOPLIST_FILE = SSImagePickerControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xtcel.SSImagePickerController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtcel.SSImagePickerControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -723,10 +715,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3QF9K9Q47Z;
-				INFOPLIST_FILE = SSImagePickerController/Info.plist;
+				INFOPLIST_FILE = SSImagePickerControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xtcel.SSImagePickerController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtcel.SSImagePickerControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -743,7 +735,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xtcel.SSImagePickerViewControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSImagePickerController.app/SSImagePickerController";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSImagePickerControllerDemo.app/SSImagePickerControllerDemo";
 			};
 			name = Debug;
 		};
@@ -758,7 +750,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xtcel.SSImagePickerViewControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSImagePickerController.app/SSImagePickerController";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSImagePickerControllerDemo.app/SSImagePickerControllerDemo";
 			};
 			name = Release;
 		};
@@ -793,7 +785,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		134D34571FD995470010FC1C /* Build configuration list for PBXProject "SSImagePickerController" */ = {
+		134D34571FD995470010FC1C /* Build configuration list for PBXProject "SSImagePickerControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				134D34861FD995470010FC1C /* Debug */,
@@ -802,7 +794,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		134D34881FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerController" */ = {
+		134D34881FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				134D34891FD995470010FC1C /* Debug */,
@@ -811,7 +803,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		134D348B1FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerControllerTests" */ = {
+		134D348B1FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerControllerDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				134D348C1FD995470010FC1C /* Debug */,
@@ -820,7 +812,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		134D348E1FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerControllerUITests" */ = {
+		134D348E1FD995470010FC1C /* Build configuration list for PBXNativeTarget "SSImagePickerControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				134D348F1FD995470010FC1C /* Debug */,

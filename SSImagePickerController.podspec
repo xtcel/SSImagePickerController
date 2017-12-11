@@ -8,16 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name         = "SSImagePickerController"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "A simple Image picker controller"
   s.homepage     = "https://github.com/xtcel/SSImagePickerController"
   s.license      = "MIT"
   s.author       = { "xtcel" => "xtcelme@163.com" }
   s.platform     = :ios
   s.ios.deployment_target = "6.0"
-  s.source       = { :git => "https://github.com/xtcel/SSImagePickerController.git", :tag => "0.1.1" }
+  s.source       = { :git => "https://github.com/xtcel/SSImagePickerController.git", :tag => "0.1.2" }
   s.requires_arc = true
-  s.resources    = "SSImagePickerController/SSImagePickerController/Resouces/*.{png,bundle}"
+  s.resources    = "SSImagePickerController/SSImagePickerController/SSImagePickerController/*.{png,bundle}"
   s.source_files = "SSImagePickerController/SSImagePickerController/SSImagePickerController/*.{h,m}"
   s.frameworks   = "Photos","AssetsLibrary"
   s.dependency "Masonry", "~> 1.1.0"
