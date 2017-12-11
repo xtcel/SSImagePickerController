@@ -231,7 +231,7 @@
 				134D34631FD995470010FC1C /* ViewController.m */,
 				134D34911FD996E20010FC1C /* SSImagePickerController */,
 				134D34651FD995470010FC1C /* Main.storyboard */,
-				134D34BF1FDA46200010FC1C /* Resource */,
+				134D34BF1FDA46200010FC1C /* Resources */,
 				134D34681FD995470010FC1C /* Assets.xcassets */,
 				134D346A1FD995470010FC1C /* LaunchScreen.storyboard */,
 				134D346D1FD995470010FC1C /* Info.plist */,
@@ -299,12 +299,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		134D34BF1FDA46200010FC1C /* Resource */ = {
+		134D34BF1FDA46200010FC1C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				134D34C01FDA465D0010FC1C /* SSImagePickerController.bundle */,
 			);
-			path = Resource;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		13B8EFE51FDBCF1700BE9C09 /* Masonry */ = {
