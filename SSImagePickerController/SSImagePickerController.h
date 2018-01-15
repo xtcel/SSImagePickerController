@@ -15,6 +15,9 @@
 
 @property(nullable,nonatomic,weak) id <UINavigationControllerDelegate, SSImagePickerControllerDelegate> delegate;
 
+/// 默认最多可选9张图片
+@property (nonatomic, assign) NSInteger maxCount;
+
 @end
 
 @protocol SSImagePickerControllerDelegate<NSObject>

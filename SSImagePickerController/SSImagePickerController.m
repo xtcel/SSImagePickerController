@@ -13,6 +13,8 @@
 
 @interface SSImagePickerController ()
 
+@property (nonatomic, strong) SSPhotoViewController *photoViewCtrl;
+
 @end
 
 @implementation SSImagePickerController
@@ -22,7 +24,8 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        
+        self.photoViewCtrl = [[SSPhotoViewController alloc] init];
+
         // 检测授权
         BOOL isAuthorized = [[SSImageManager manager] authorizationStatusAuthorized];
         if (isAuthorized) {
@@ -58,12 +61,20 @@
     [SSImageManager manager].delegate= delegate;
 }
 
+#pragma mark - Getter/Setter
+
+- (void)setMaxCount:(NSInteger)maxCount {
+    _maxCount = maxCount;
+    
+    if (_photoViewCtrl) {
+        _photoViewCtrl.maxCount = _maxCount;
+    }
+}
 
 #pragma mark - PushPhotoViewController
 
 - (void)pushPhotoViewController {
-    SSPhotoViewController *photoViewCtrl = [[SSPhotoViewController alloc] init];
-    [self pushViewController:photoViewCtrl animated:NO];
+    [self pushViewController:self.photoViewCtrl animated:NO];
 }
 
 @end

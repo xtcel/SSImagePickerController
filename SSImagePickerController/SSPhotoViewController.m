@@ -43,10 +43,19 @@ UITableViewDataSource, UITableViewDelegate>
 
 @implementation SSPhotoViewController
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.maxCount = 9;
+        self.minCount = 0;
+    }
+    
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     [self setExtendedLayout];
 
     [self loadAlbums];
@@ -390,7 +399,7 @@ UITableViewDataSource, UITableViewDelegate>
     //如果cell当前状态为非勾选状态，那么将要勾选的加入到勾选数组中
     if (!selelctButton.isSelected) {
         //如果少于9张图片，则直接加入
-        if (self.selectedPhotoArray.count < (12)) {
+        if (self.selectedPhotoArray.count < (self.maxCount)) {
             
             [self.selectedPhotoArray addObject:cell.photoModel];
             cell.photoModel.selectedIndex = self.selectedPhotoArray.count;
@@ -398,7 +407,7 @@ UITableViewDataSource, UITableViewDelegate>
             [cell updateUI];
         } else {
             //已经有9张图片，不让继续添加，返回No，不让Cell切换状态
-//            [self showTipWithTitle:@"每条最多只能上传9张图片哦"];
+//            [self showTipWithTitle:@"最多只能选择9张图片"];
             return;
         }
     } else {

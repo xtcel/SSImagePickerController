@@ -25,6 +25,7 @@
 - (IBAction)selectImageButtonClickEvent:(id)sender {
     SSImagePickerController *imagePickerViewCtrl = [[SSImagePickerController alloc] init];
     imagePickerViewCtrl.delegate = self;
+    imagePickerViewCtrl.maxCount = 6;
     [self presentViewController:imagePickerViewCtrl animated:YES completion:nil];
 }
 

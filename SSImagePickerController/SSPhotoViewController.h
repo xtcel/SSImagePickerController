@@ -11,4 +11,7 @@
 
 @interface SSPhotoViewController : UIViewController
 
+@property (nonatomic, assign, readwrite) NSInteger maxCount;
+@property (nonatomic, assign, readwrite) NSInteger minCount;
+
 @end
